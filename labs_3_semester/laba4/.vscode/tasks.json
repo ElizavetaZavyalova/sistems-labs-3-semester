@@ -1,0 +1,68 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "ckient1",
+            "command": "g++",
+            "args": [
+                "client1.cpp",
+                "-o",
+                "client1"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        },
+        {
+            "type": "cppbuild",
+            "label": "server1",
+            "command": "g++",
+            "args": [
+                "server1.cpp",
+                "-o",
+                "server1"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        },
+        {
+            "type": "cppbuild",
+            "label": "chat",
+            "command": "g++",
+            "args": [
+                "chat.cpp",
+                "-o",
+                "chat"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        } 
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,68 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "laba1a",
+            "command": "g++",
+            "args": [
+                "laba1a.cpp",
+                "-o",
+                "laba1a"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        },
+        {
+            "type": "cppbuild",
+            "label": "laba1b",
+            "command": "g++",
+            "args": [
+                "laba1b.cpp",
+                "-o",
+                "laba1b"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        },
+        {
+            "type": "cppbuild",
+            "label": "laba2",
+            "command": "g++",
+            "args": [
+                "laba2.cpp",
+                "-o",
+                "laba2"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}

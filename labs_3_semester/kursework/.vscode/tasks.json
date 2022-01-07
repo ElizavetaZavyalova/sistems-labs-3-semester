@@ -1,0 +1,89 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "fileserver",
+            "command": "g++",
+            "args": [
+                "fileserver.cpp",
+                "-o",
+                "fileserver"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        },
+        {
+            "type": "cppbuild",
+            "label": "gameserver",
+            "command": "g++",
+            "args": [
+                "gameserver.cpp",
+                "-o",
+                "gameserver"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        },
+        {
+            "type": "cppbuild",
+            "label": "client",
+            "command": "g++",
+            "args": [
+                "client.cpp",
+                "-o",
+                "client"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        },
+        {
+            "type": "cppbuild",
+            "label": "netserver",
+            "command": "g++",
+            "args": [
+                "netserver.cpp",
+                "-o",
+                "netserver"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        } 
+    ],
+    "version": "2.0.0"
+}
